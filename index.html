@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-2</title>
+    <link rel="stylesheet" href="project2.css">
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <div class="logo">
+                <img src="/Project/samsung.png">
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Phone</a></li>
+                    <li><a href="#">Accesories</a></li>
+                    <li><a href="#">Cart</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="information">
+            <div class="overlay">
+
+            </div>
+            <div class="mobile">
+                <img src="/Project/Apple-iPhone-11-Download-PNG-Image.png">
+            </div>
+            <div id="circle">
+                <div class="feature one">
+                   <img src="/Project/display.png">
+                   <div>
+                    <h5>Display</h5>
+                   <p>6.5",Amoled</p>
+                   </div>
+                </div>
+                <div class="feature two">
+                    <img src="/Project/processor.png">
+                    <div>
+                    <h5>Snapdragon</h5>
+                    <p>OctaCore,11nm</p>
+                    </div>
+                </div>
+                <div class="feature three">
+                    <img src="/Project/battery.png">
+                    <div>
+                    <h5>Battery</h5>
+                    <p>5000mAh</p>
+                    </div>
+                </div>
+                <div class="feature four">
+                    <img src="/Project/camera.png">
+                    <div>
+                    <h6>Camera</h6>
+                    <p>12MP, Wide Camera Lens</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="controls">
+            <img src="/Project/arrow-up-sign-to-navigate.png" id="upbutton">
+            <h3>Features</h3>
+            <img src="/Project/arrow-down-sign-to-navigate.png" id="downbutton">
+        </div>
+    </div>
+
+
+    <script>
+        let circle = document.getElementById("circle");
+        let upbutton = document.getElementById("upbutton");
+        let downbutton = document.getElementById("downbutton");
+        let rotateValue = circle.style.transform;
+        let rotateSum;
+
+        upbutton.onclick = function()
+        {
+            rotateSum = rotateValue + "rotate(-90deg)";
+            circle.style.transform = rotateSum;
+            rotateValue = rotateSum;
+        }
+
+        downbutton.onclick = function()
+        {
+            rotateSum = rotateValue + "rotate(90deg)";
+            circle.style.transform = rotateSum;
+            rotateValue = rotateSum;
+        }
+    </script>
+
+
+
+</body>
+</html>
