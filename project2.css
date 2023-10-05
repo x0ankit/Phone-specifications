@@ -12,46 +12,46 @@
 
 }
 nav{
-    width: 90%;
+    width: 80%;
     position: sticky;
     margin: 10px auto;
     z-index: 1;
     display: flex;
     align-items: center;
 }
-.logo{
-    flex-basis: 20%;
-}
+/* .logo{
+    flex-basis: 10%;
+} */
 .logo img{
-    width: 70px;
+    width: 150px;
     margin-left:30px ;
 }
 .nav-links{
     flex: 1;
-    text-align: right;
+    text-align:end;
 }
 .nav-links ul li{
     color: #fff;
     display: inline-block;
-    justify-content: right;
+    /* justify-content: right; */
 }
 .nav-links ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 8px;
-    margin-left: 10px ;
+    font-size: 15px;
+    margin-left: 60px;
 }
 .information{
-    width:350px;
-    height:350px;
+    width:1000px;
+    height:1000px;
     position: absolute;
-    top: 20%;
-    /* left: -10%; */
-    transform: translateY(-25%);
+    top: 55%;
+    left: -20%;
+    transform: translateY(-50%);
 }
 #circle{
-    width: 350px;
-    height: 350px;
+    width: 1000px;
+    height: 1000px;
     position: absolute;
     top: 0;
     left: 0;
@@ -61,7 +61,7 @@ nav{
     /* background-color: #ccc; */
 }
 .feature img{
-    width: 20px;  
+    width: 60px;  
 }
 .feature{
     position: absolute;
@@ -69,37 +69,37 @@ nav{
     color: #fff;
 }
 .one{
-    top: 140px; 
+    top: 450px; 
     right: 30px;
 }
 .two {
-   top: 140px;
-   left: 15px;
-   transform: rotate(180deg);
+   top: 710px;
+   left: 415px;
+   transform: rotate(90deg);
 }
 .three{
-    top: 40px;
-    left: 150px;
+    top: 170px;
+    left: 450px;
     transform: rotate(-90deg);
 }
 .four{
-    top: 260px;
-    left: 150px;
-    transform: rotate(90deg);
+    top: 450px;
+    left: 50px;
+    transform: rotate(180deg);
 }
 p{
-    font-size: 7px;
+    font-size: 15px;
 }
 .mobile img{
-    width: 150px;
+    width: 350px;
     position: absolute;
-    top: 35%;
-    left: 20%;
+    top: 38%;
+    left: 30%;
     z-index: 1;
     transform: translateY(-20%);
 }
 .feature h5{
-    font-size: 10px;
+    font-size: 20px;
 }
 .feature div{
     margin-left: 5px;
@@ -110,24 +110,24 @@ p{
     top: 35%;
 }
 .controls h3{
-    margin: 15px 0;
-    font-size: 12px;
+    margin: 25px 0;
+    font-size: 16px;
     color: #fff;
     text-align: center;
 }
 #upbutton{
-    width: 25px;
+    width: 35px;
     cursor: pointer;
 }
 #downbutton{
-    width: 25px;
+    width: 35px;
     cursor: pointer;
 }
 .overlay{
     width: 0;
     height: 0;
-    border-top:150px solid #fff;
-    border-right:150px solid transparent;
-    border-bottom:150px solid #fff;
-    border-left:150px solid #fff;
+    border-top:500px solid #fff;
+    border-right:500px solid transparent;
+    border-bottom:500px solid #fff;
+    border-left:500px solid  #fff;
 }
